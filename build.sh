@@ -49,7 +49,7 @@ apt-get update && apt-get install -y $PACKAGES_TO_INSTALL
 wget -c http://http.us.debian.org/debian/pool/main/w/wbxml2/libwbxml2-dev_0.11.7+dfsg-1_amd64.deb
 wget -c http://http.us.debian.org/debian/pool/main/w/wbxml2/libwbxml2-1_0.11.7+dfsg-1_amd64.deb
 
-dpkg -i libwbxml2-0_0.11.6-1_amd64.deb libwbxml2-dev_0.11.6-1_amd64.deb
+dpkg -i libwbxml2-1_0.11.7+dfsg-1_amd64.deb libwbxml2-dev_0.11.7+dfsg-1_amd64.deb
 
 # Install any missing packages
 apt-get -f install -y
