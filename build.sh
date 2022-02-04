@@ -35,6 +35,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 cd "$PACKAGES_DIR"
 
+rm -rf *
+
 # Do not install recommended or suggested packages
 echo 'APT::Get::Install-Recommends "false";' >> /etc/apt/apt.conf
 echo 'APT::Get::Install-Suggests "false";' >> /etc/apt/apt.conf
