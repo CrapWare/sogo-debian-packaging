@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -x
 set -e
 
 # https://stackoverflow.com/a/246128
